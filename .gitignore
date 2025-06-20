@@ -1,0 +1,26 @@
+# Dependency directories
+node_modules/
+**/node_modules/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# Playwright test output
+test-results/
+playwright-report/
+trace.zip
+
+# VSCode settings
+.vscode/
+
+# Docker
+**/dist/
+**/.env
+**/Dockerfile
+**/docker-compose.override.yml
